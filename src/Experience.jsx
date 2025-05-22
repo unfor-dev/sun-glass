@@ -10,7 +10,7 @@ export default function Experience() {
     return (
         <>
             <ambientLight intensity={2} position={[1, 2, 3]} />
-            {/* <directionalLight intensity={5} position={[1, 2, 3]} /> */}
+            <directionalLight intensity={0.1} position={[1, 2, 3]} />
             {/* <color attach="background" args={['#f0f0f0']} />  */}
 
             {/* <OrbitControls /> */}
